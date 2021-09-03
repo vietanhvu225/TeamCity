@@ -57,7 +57,7 @@ namespace TC.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
-            var test = 1;
+            var test = ;
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
